@@ -1,0 +1,193 @@
+{
+  "common": {
+    "appName": "LiveSub",
+    "cancel": "Hủy",
+    "delete": "Xóa",
+    "save": "Lưu",
+    "continue": "Tiếp tục",
+    "done": "Xong",
+    "reset": "Đặt lại",
+    "share": "Chia sẻ",
+    "retry": "Thử lại",
+    "loading": "Đang tải…",
+    "error": "Đã có lỗi xảy ra",
+    "comingSoon": "Sắp có (giai đoạn {phase})",
+    "ms": "{value} ms"
+  },
+  "tabs": {
+    "home": "Trang chủ",
+    "history": "Lịch sử",
+    "settings": "Cài đặt"
+  },
+  "languages": {
+    "en": "Tiếng Anh",
+    "vi": "Tiếng Việt",
+    "ja": "Tiếng Nhật",
+    "ko": "Tiếng Hàn",
+    "zh": "Tiếng Trung",
+    "fr": "Tiếng Pháp",
+    "de": "Tiếng Đức",
+    "es": "Tiếng Tây Ban Nha",
+    "th": "Tiếng Thái"
+  },
+  "direction": {
+    "title": "Chiều dịch",
+    "enVi": "EN → VI",
+    "viEn": "VI → EN",
+    "auto": "Tự nhận diện"
+  },
+  "source": {
+    "title": "Nguồn âm thanh",
+    "mic": "Micro",
+    "app": "App khác",
+    "chooseApp": "Chọn app cần nghe",
+    "appHint": "Android 10+: nghe trực tiếp âm thanh của app đã chọn. Một số app chặn ghi âm, khi đó hãy dùng Micro.",
+    "iosBroadcast": "Phát sóng màn hình",
+    "iosHint": "iOS nghe toàn bộ âm thanh hệ thống qua phát sóng màn hình, chỉ hỗ trợ Cloud."
+  },
+  "engine": {
+    "title": "Chế độ dịch",
+    "cloud": "Cloud",
+    "offline": "Offline",
+    "offlineNotReady": "Cần tải model giọng nói và gói EN/VI để dùng Offline.",
+    "managePacks": "Quản lý gói ngôn ngữ"
+  },
+  "home": {
+    "subtitle": "Phụ đề dịch realtime Anh ⇄ Việt",
+    "overlay": "Phụ đề nổi",
+    "overlayHint": "Hiện phụ đề trên app khác (YouTube, Zoom…)",
+    "overlayIosHint": "iOS hiển thị qua Picture-in-Picture",
+    "editOverlay": "Chỉnh phụ đề nổi",
+    "start": "Bắt đầu dịch",
+    "openLive": "Xem phiên đang chạy",
+    "needApiKey": "Chưa nhập API key cho {provider}.",
+    "goSettings": "Mở cài đặt"
+  },
+  "live": {
+    "title": "Đang dịch",
+    "listening": "Đang nghe…",
+    "translating": "Đang dịch…",
+    "stop": "Dừng",
+    "stopping": "Đang dừng…",
+    "latency": "Độ trễ",
+    "errorTitle": "Không thể bắt đầu phiên",
+    "status": {
+      "connected": "Đã kết nối",
+      "connecting": "Đang kết nối",
+      "reconnecting": "Đang kết nối lại",
+      "disconnected": "Mất kết nối"
+    }
+  },
+  "overlay": {
+    "title": "Phụ đề nổi",
+    "preview": "Xem trước",
+    "dragHint": "Kéo khung phụ đề để đổi vị trí",
+    "portrait": "Dọc",
+    "landscape": "Ngang",
+    "fontSize": "Cỡ chữ",
+    "textColor": "Màu chữ",
+    "bgColor": "Màu nền",
+    "bgOpacity": "Độ mờ nền",
+    "width": "Độ rộng",
+    "maxLines": "Số dòng",
+    "showOriginal": "Hiện câu gốc",
+    "resetStyle": "Đặt lại kiểu",
+    "sampleOriginal": "Let me show you a quick demo.",
+    "sampleTranslated": "Để tôi cho bạn xem một bản demo nhanh.",
+    "nativeNote": "Kéo thả trực tiếp trên app khác sẽ có ở giai đoạn 3."
+  },
+  "history": {
+    "title": "Lịch sử",
+    "search": "Tìm trong lịch sử",
+    "empty": "Chưa có phiên nào",
+    "emptyHint": "Các phiên dịch đã kết thúc sẽ hiện ở đây.",
+    "segments": "{count} câu",
+    "exportTxt": "Xuất TXT",
+    "exportSrt": "Xuất SRT",
+    "deleteTitle": "Xóa phiên này?",
+    "deleteMessage": "Toàn bộ nội dung phiên sẽ bị xóa khỏi máy.",
+    "notFound": "Không tìm thấy phiên",
+    "searchInSession": "Tìm trong phiên",
+    "noMatch": "Không có kết quả"
+  },
+  "packs": {
+    "title": "Gói ngôn ngữ",
+    "translation": "Gói dịch offline",
+    "whisper": "Model nhận giọng nói",
+    "download": "Tải",
+    "downloaded": "Đã tải",
+    "downloading": "{progress}%",
+    "size": "{size} MB",
+    "inUse": "Đang dùng",
+    "use": "Dùng",
+    "failed": "Tải lỗi",
+    "wifiOnlyNote": "Chỉ tải khi có Wi-Fi (đổi trong Cài đặt).",
+    "required": "Bắt buộc",
+    "model": {
+      "tiny": "Nhẹ nhất, cho máy yếu",
+      "base": "Cân bằng (khuyên dùng)",
+      "small": "Chính xác hơn, cần máy mạnh"
+    }
+  },
+  "settings": {
+    "title": "Cài đặt",
+    "cloud": "Cloud",
+    "provider": "Nhà cung cấp",
+    "apiKey": "API key",
+    "apiKeyPlaceholder": "Dán API key của {provider}",
+    "apiKeyHint": "Lưu mã hóa trên máy, không gửi đi đâu ngoài nhà cung cấp.",
+    "apiKeySaved": "Đã lưu API key",
+    "apiKeyTooShort": "API key quá ngắn",
+    "segmentation": "Ngắt câu (dịch sớm)",
+    "silenceMs": "Khoảng lặng để ngắt",
+    "silenceHint": "Ngắn hơn → dịch nhanh hơn nhưng câu dễ bị cắt.",
+    "maxWords": "Số từ tối đa mỗi cụm",
+    "maxWordsValue": "{value} từ",
+    "downloads": "Tải xuống",
+    "wifiOnly": "Chỉ tải qua Wi-Fi",
+    "appearance": "Giao diện",
+    "theme": "Chủ đề",
+    "themeSystem": "Hệ thống",
+    "themeLight": "Sáng",
+    "themeDark": "Tối",
+    "uiLang": "Ngôn ngữ giao diện",
+    "tools": "Công cụ",
+    "languagePacks": "Gói ngôn ngữ",
+    "overlay": "Phụ đề nổi",
+    "debug": "Debug độ trễ",
+    "redoOnboarding": "Xem lại hướng dẫn ban đầu",
+    "providers": {
+      "deepgram": "Deepgram",
+      "soniox": "Soniox",
+      "openai": "OpenAI Realtime",
+      "azure": "Azure Speech Translation"
+    }
+  },
+  "debug": {
+    "title": "Debug độ trễ",
+    "stt": "Nhận giọng nói",
+    "translate": "Dịch",
+    "total": "Tổng",
+    "last": "Gần nhất",
+    "avg": "Trung bình",
+    "p95": "P95",
+    "samples": "{count} mẫu trong phiên gần nhất",
+    "empty": "Chưa có số liệu. Hãy chạy một phiên dịch.",
+    "note": "Đo từ lúc nhận chữ đầu tiên của cụm → cắt cụm → có bản dịch. Thời gian capture audio sẽ được thêm ở giai đoạn 2."
+  },
+  "onboarding": {
+    "welcomeTitle": "Chào mừng đến LiveSub",
+    "welcomeBody": "Nghe giọng nói và hiện phụ đề dịch Anh ⇄ Việt gần như tức thì, ngay cả trên app khác.",
+    "chooseDirection": "Bạn muốn dịch theo chiều nào?",
+    "modeTitle": "Chọn chế độ dịch",
+    "cloudDesc": "Nhanh và chính xác nhất (~1 giây). Cần Internet và API key của nhà cung cấp.",
+    "offlineDesc": "Chạy hoàn toàn trên máy (~2–3 giây). Cần tải model trước.",
+    "apiKeyLater": "Có thể nhập API key sau trong Cài đặt.",
+    "permissionsTitle": "Quyền cần thiết",
+    "micBody": "Micro: để nghe giọng nói xung quanh hoặc từ loa ngoài.",
+    "overlayBody": "Hiển thị trên app khác (Android): sẽ hỏi khi bạn bật phụ đề nổi lần đầu.",
+    "micNote": "Hộp thoại xin quyền micro sẽ hiện khi bắt đầu phiên dịch đầu tiên.",
+    "finish": "Bắt đầu dùng",
+    "step": "Bước {current}/{total}"
+  }
+}

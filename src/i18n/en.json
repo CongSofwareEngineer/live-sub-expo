@@ -1,0 +1,193 @@
+{
+  "common": {
+    "appName": "LiveSub",
+    "cancel": "Cancel",
+    "delete": "Delete",
+    "save": "Save",
+    "continue": "Continue",
+    "done": "Done",
+    "reset": "Reset",
+    "share": "Share",
+    "retry": "Retry",
+    "loading": "Loading…",
+    "error": "Something went wrong",
+    "comingSoon": "Coming soon (phase {phase})",
+    "ms": "{value} ms"
+  },
+  "tabs": {
+    "home": "Home",
+    "history": "History",
+    "settings": "Settings"
+  },
+  "languages": {
+    "en": "English",
+    "vi": "Vietnamese",
+    "ja": "Japanese",
+    "ko": "Korean",
+    "zh": "Chinese",
+    "fr": "French",
+    "de": "German",
+    "es": "Spanish",
+    "th": "Thai"
+  },
+  "direction": {
+    "title": "Direction",
+    "enVi": "EN → VI",
+    "viEn": "VI → EN",
+    "auto": "Auto detect"
+  },
+  "source": {
+    "title": "Audio source",
+    "mic": "Microphone",
+    "app": "Other app",
+    "chooseApp": "Choose an app to listen to",
+    "appHint": "Android 10+: captures the selected app's audio directly. Some apps block capture — use Microphone then.",
+    "iosBroadcast": "Screen broadcast",
+    "iosHint": "iOS captures all system audio via screen broadcast, Cloud only."
+  },
+  "engine": {
+    "title": "Mode",
+    "cloud": "Cloud",
+    "offline": "Offline",
+    "offlineNotReady": "Download a speech model and the EN/VI packs to use Offline.",
+    "managePacks": "Manage language packs"
+  },
+  "home": {
+    "subtitle": "Realtime English ⇄ Vietnamese subtitles",
+    "overlay": "Floating subtitles",
+    "overlayHint": "Show subtitles over other apps (YouTube, Zoom…)",
+    "overlayIosHint": "iOS shows them via Picture-in-Picture",
+    "editOverlay": "Customize floating subtitles",
+    "start": "Start translating",
+    "openLive": "Open running session",
+    "needApiKey": "No API key set for {provider}.",
+    "goSettings": "Open settings"
+  },
+  "live": {
+    "title": "Translating",
+    "listening": "Listening…",
+    "translating": "Translating…",
+    "stop": "Stop",
+    "stopping": "Stopping…",
+    "latency": "Latency",
+    "errorTitle": "Couldn't start the session",
+    "status": {
+      "connected": "Connected",
+      "connecting": "Connecting",
+      "reconnecting": "Reconnecting",
+      "disconnected": "Disconnected"
+    }
+  },
+  "overlay": {
+    "title": "Floating subtitles",
+    "preview": "Preview",
+    "dragHint": "Drag the subtitle box to move it",
+    "portrait": "Portrait",
+    "landscape": "Landscape",
+    "fontSize": "Font size",
+    "textColor": "Text color",
+    "bgColor": "Background",
+    "bgOpacity": "Background opacity",
+    "width": "Width",
+    "maxLines": "Lines",
+    "showOriginal": "Show original",
+    "resetStyle": "Reset style",
+    "sampleOriginal": "Let me show you a quick demo.",
+    "sampleTranslated": "Để tôi cho bạn xem một bản demo nhanh.",
+    "nativeNote": "Dragging directly over other apps arrives in phase 3."
+  },
+  "history": {
+    "title": "History",
+    "search": "Search history",
+    "empty": "No sessions yet",
+    "emptyHint": "Finished translation sessions show up here.",
+    "segments": "{count} lines",
+    "exportTxt": "Export TXT",
+    "exportSrt": "Export SRT",
+    "deleteTitle": "Delete this session?",
+    "deleteMessage": "All of its content will be removed from this device.",
+    "notFound": "Session not found",
+    "searchInSession": "Search this session",
+    "noMatch": "No results"
+  },
+  "packs": {
+    "title": "Language packs",
+    "translation": "Offline translation packs",
+    "whisper": "Speech recognition model",
+    "download": "Download",
+    "downloaded": "Downloaded",
+    "downloading": "{progress}%",
+    "size": "{size} MB",
+    "inUse": "In use",
+    "use": "Use",
+    "failed": "Download failed",
+    "wifiOnlyNote": "Downloads only on Wi-Fi (change in Settings).",
+    "required": "Required",
+    "model": {
+      "tiny": "Lightest, for low-end devices",
+      "base": "Balanced (recommended)",
+      "small": "More accurate, needs a fast device"
+    }
+  },
+  "settings": {
+    "title": "Settings",
+    "cloud": "Cloud",
+    "provider": "Provider",
+    "apiKey": "API key",
+    "apiKeyPlaceholder": "Paste your {provider} API key",
+    "apiKeyHint": "Stored encrypted on this device, only sent to the provider.",
+    "apiKeySaved": "API key saved",
+    "apiKeyTooShort": "API key is too short",
+    "segmentation": "Segmentation (early translation)",
+    "silenceMs": "Silence to cut",
+    "silenceHint": "Shorter → faster translation, but sentences get cut more often.",
+    "maxWords": "Max words per chunk",
+    "maxWordsValue": "{value} words",
+    "downloads": "Downloads",
+    "wifiOnly": "Download over Wi-Fi only",
+    "appearance": "Appearance",
+    "theme": "Theme",
+    "themeSystem": "System",
+    "themeLight": "Light",
+    "themeDark": "Dark",
+    "uiLang": "App language",
+    "tools": "Tools",
+    "languagePacks": "Language packs",
+    "overlay": "Floating subtitles",
+    "debug": "Latency debug",
+    "redoOnboarding": "Replay onboarding",
+    "providers": {
+      "deepgram": "Deepgram",
+      "soniox": "Soniox",
+      "openai": "OpenAI Realtime",
+      "azure": "Azure Speech Translation"
+    }
+  },
+  "debug": {
+    "title": "Latency debug",
+    "stt": "Speech recognition",
+    "translate": "Translation",
+    "total": "Total",
+    "last": "Last",
+    "avg": "Average",
+    "p95": "P95",
+    "samples": "{count} samples from the latest session",
+    "empty": "No data yet. Run a translation session.",
+    "note": "Measured from the chunk's first word → chunk cut → translation ready. Audio capture time is added in phase 2."
+  },
+  "onboarding": {
+    "welcomeTitle": "Welcome to LiveSub",
+    "welcomeBody": "Listen to speech and get English ⇄ Vietnamese subtitles almost instantly, even over other apps.",
+    "chooseDirection": "Which way do you want to translate?",
+    "modeTitle": "Choose a mode",
+    "cloudDesc": "Fastest and most accurate (~1s). Needs Internet and a provider API key.",
+    "offlineDesc": "Runs fully on-device (~2–3s). Requires downloading models first.",
+    "apiKeyLater": "You can enter the API key later in Settings.",
+    "permissionsTitle": "Permissions",
+    "micBody": "Microphone: to hear speech around you or from the speaker.",
+    "overlayBody": "Display over other apps (Android): asked when you first enable floating subtitles.",
+    "micNote": "The microphone prompt appears when you start your first session.",
+    "finish": "Get started",
+    "step": "Step {current}/{total}"
+  }
+}
